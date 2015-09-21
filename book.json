@@ -1,7 +1,6 @@
 {
     "plugins": [
-        "maxiang",
-        "gitbook-plugin-betterchinese"
+        "maxiang"
     ],
     "pluginsConfig": {}
 }
