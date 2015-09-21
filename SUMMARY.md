@@ -43,4 +43,6 @@
     * [架构](topics/architecture.md)
     * [下载器中间件](topics/downloader-middleware.md)
     * [蜘蛛中间件](topics/spider-middleware.md)
+    * [扩展](topics/extensions.md)
+    * [核心API](topics/api.md)
 * [其它内容](part6/README.md)
