@@ -40,4 +40,5 @@
     * [性能](topics/benchmarking.md)
     * [作业控制](topics/jobs.md)
 * [扩展 scrapy](part5/README.md)
+    * [架构](topics/architecture.md)
 * [其它内容](part6/README.md)
