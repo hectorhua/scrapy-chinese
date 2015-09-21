@@ -22,6 +22,8 @@
     * [日志](topics/logging.md)
     * [统计](topics/stats.md)
     * [邮件](topics/email.md)
+    * [Telnet控制台](topics/telnetconsole.md)
+    * [Web Service](topics/webservice.md)
 * [解决特定问题](part4/README.md)
 * [扩展 scrapy](part5/README.md)
 * [其它内容](part6/README.md)
