@@ -47,7 +47,7 @@
     * [核心API](topics/api.md)
     * [信号](topics/signals.md)
     * [Item导出器](topics/exporters.md)
+* [其它内容](part6/README.md)
     * [发布记录](news.md)
     * [贡献你的力量](contributing.md)
     * [版本和 API 稳定性](versioning.md)
-* [其它内容](part6/README.md)
