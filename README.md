@@ -13,7 +13,7 @@ Scrapy 是一个快速、高级的 web 抓取和提取框架，用于抓取网�
 ## 依赖
 
 - Python2.7
-- 在Linux, Windows, Mac OSX, BSD可用
+- 在Linux, Windows, Mac OSX, BSD平台可用
 
 ## 安装
 
