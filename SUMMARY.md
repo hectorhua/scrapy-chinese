@@ -36,5 +36,8 @@
     * [下载和处理文件和图片](topics/media-pipeline.md)
     * [Ubuntu 包](topics/ubuntu.md)
     * [部署](topics/deploy.md)
+    * [自动调整速度](topics/autothrottle.md)
+    * [性能](topics/benchmarking.md)
+    * [作业控制](topics/jobs.md)
 * [扩展 scrapy](part5/README.md)
 * [其它内容](part6/README.md)
