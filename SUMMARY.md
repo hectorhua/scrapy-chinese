@@ -18,6 +18,7 @@
     * [Link Extractors](topics/link-extractors.md)
     * [Settings](topics/settings.md)
     * [异常](topics/exceptions.md)
+    * [统计](topics/stats.md)
 * [内建服务](part3/README.md)
     * [日志](topics/logging.md)
 * [解决特定问题](part4/README.md)
