@@ -4,6 +4,7 @@
     * [Scrapy 概览](intro/overview.md)
     * [安装](intro/install.md)
     * [Scrapy 初步](intro/tutorial.md)
+    * [示例](intro/examples.md)
 * [基本概念](part2/README.md)
 * [内建服务](part3/README.md)
 * [解决特定问题](part4/README.md)
