@@ -40,4 +40,4 @@ pip install scrapy
 
 ## 贡献
 
-[贡献你的力量](docs/)
+[贡献你的力量](docs/contributing.md)
