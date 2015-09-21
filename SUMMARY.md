@@ -1,7 +1,7 @@
 # 目录
 
 * [从这儿开始](intro/README.md)
-    * [Scrapy 初步](intro/overview.md)
+    * [Scrapy 概览](intro/overview.md)
     * [安装](intro/install.md)
     * [Scrapy 初步](intro/tutorial.md)
 * [基本概念](part2/README.md)
