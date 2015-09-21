@@ -35,5 +35,6 @@
     * [调试内存泄露](topics/leaks.md)
     * [下载和处理文件和图片](topics/media-pipeline.md)
     * [Ubuntu 包](topics/ubuntu.md)
+    * [部署](topics/deploy.md)
 * [扩展 scrapy](part5/README.md)
 * [其它内容](part6/README.md)
