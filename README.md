@@ -19,3 +19,25 @@ Scrapy 是一个快速、高级的 web 抓取和提取框架，用于抓取网�
 pip install scrapy
 ```
 
+更多关于安装的信息，请看 [安装](intro/install.md)
+
+
+## 版本发布
+
+你可以从[这里](http://scrapy.org/download/)下载最新的稳定和开发版本。
+
+
+## 文档
+官方在线文档: [官方文档](http://doc.scrapy.org/)
+
+**建议**：官方文档只有英文版的，本文档是最新的中文翻译。
+
+
+## 社区
+
+[社区链接](http://scrapy.org/community/)
+
+
+## 贡献
+
+[贡献你的力量](docs/)
