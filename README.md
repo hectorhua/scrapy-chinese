@@ -1,10 +1,12 @@
 # scrapy-chinese
 
+![scrapy logo](http://scrapy.org/img/scrapy-big-logo.png)
+
 这是 scrapy 官方文档的中文翻译。我们希望本文档一直跟随 scrapy的每次发布而更新，为国内同行提供便利。然而一个人的精力总是有限的，如果你也在用 scrapy，并愿意抽空给我们翻译一段，我们将非常高兴！
 
 ## 概要
 
-Scrapy 是一个快速、高级的 web 抓取和提取框架，用于抓取网站、从页面中提取结构化数据。它的用途广泛，从数据挖掘到监控和自动化测试。
+Scrapy 是一个快速、高级的 web 抓取和提取框架，用于抓取网站、从页面中提取结构化数据。它的用途非常广泛，从数据挖掘到监控和自动化测试。
 
 关于 scrapy 的更多特性，请移步到主页[http://scrapy.org](http://scrapy.org).
 
