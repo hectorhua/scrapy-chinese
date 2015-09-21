@@ -15,7 +15,7 @@
     * [管道](topics/item-pipeline.md)
     * [Feed Exports](topics/feed-exports.md)
     * [请求 和 响应](topics/request-response.md)
-    * [Link Extractors](topics/link-extractors.md)
+    * [链接提取器](topics/link-extractors.md)
     * [配置](topics/settings.md)
     * [异常](topics/exceptions.md)
 * [内建服务](topics/README.md)
