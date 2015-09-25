@@ -92,8 +92,13 @@ scrapy runspider stackoverflow_spider.py -o top-stackoverflow-questions.json
     - robots.txt
     - 限制抓取深度
     - 更多
+- A Telnet console for hooking into a Python console running inside your Scrapy process, to introspect and debug your crawler
+- Telnet 控制台
+- Plus other goodies like reusable spiders to crawl sites from Sitemaps and XML/CSV feeds, a media pipeline for automatically downloading images (or any other media) associated with the scraped items, a caching DNS resolver, and much more!
 
-
+##接下来##
+The next steps for you are to install Scrapy, follow through the tutorial to learn how to organize your code in Scrapy projects and join the community. Thanks for your interest!
+下一步你可以安装 Scrapy
 
 
 
