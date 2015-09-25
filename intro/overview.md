@@ -98,11 +98,11 @@ scrapy runspider stackoverflow_spider.py -o top-stackoverflow-questions.json
 
 ##接下来##
 
-下一步你可以[安装 Scrapy](intro/install.md), [学习 scrapy 入门](intro/tutorial.md)学习在 scrpay 项目中组织代码，也你可以[加入社区](http://scrapy.org/community/)。感谢你的阅读！
+下一步你可以通过[安装 Scrapy](intro/install.md), [Scrapy 入门](intro/tutorial.md)学习如何在 scrpay 项目中组织代码，也你可以[加入社区](http://scrapy.org/community/)。感谢你的阅读！
 
 
 
-
+ 
 
 
 
