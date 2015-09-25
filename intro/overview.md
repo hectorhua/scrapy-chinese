@@ -68,6 +68,8 @@ scrapy runspider stackoverflow_spider.py -o top-stackoverflow-questions.json
 
 这时你注意到一个 scrapy 的主要优势：**请求是异步地被调度和处理的**。这意味着 Scrapy 不需要等一个请求返回并处理完成，它就可以同时发送另一个请求，或者做些其他事情。这也意味着即使一些请求失败了，或者处理过程中出错了，其他请求可以继续处理。
 
+在给你快速抓取能力（以fault-tolerant方式可以并发发送多个请求）的同时，你可以通过一些设置控制它。你可以设置每个请求之间的下载延时，限制每个域或者 IP 的并发数，甚至通过auto-throttling扩展尝试自动限制并发数。
+
 While this enables you to do very fast crawls (sending multiple concurrent requests at the same time, in a fault-tolerant way) Scrapy also gives you control over the politeness of the crawl through a few settings. You can do things like setting a download delay between each request, limiting amount of concurrent requests per domain or per IP, and even using an auto-throttling extension that tries to figure out these automatically.
 
 Finally, the parse_question callback scrapes the question data for each page yielding a dict, which Scrapy then collects and writes to a JSON file as requested in the command line.
