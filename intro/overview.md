@@ -76,3 +76,29 @@ scrapy runspider stackoverflow_spider.py -o top-stackoverflow-questions.json
     
     这里使用了 `feed exports`来生成 JSON 文件，你也可以轻易地改变导出格式(XML 或者 CSV)，改变存储后端(FTP 或者 Amazon S3).你也可以写一个 `item pipeline`来存储数据到数据库中。
 
+##还有什么？##
+
+你已经知道如何用 scrapy从网站 提取数据，把它们存储起来，但这还只是表面的东西。 SCrapy 提供了许多强大的功能，以使抓取变得容易、有效。例如：
+
+- 通过扩展 CSS 选择器和 XPATH 表达式来选择和提取需要的数据和一些用正则表达式提取的帮助方法。
+- 提供了一个交互式的 shell 控制台(支持 IPython)。测试 能提取数据的CSS 和 XPATH 表达式，当你在编码或者调试蜘蛛的时候非常有用。
+- 内建支持多种格式的`feed exports`(JSON, CSV, XML),可以保存在多种存储后端(FTP, S3, 本地文件系统)
+- 广泛的编码支持和自动检测来处理外部的、非标准的、错误的编码声明。
+- 强大的扩展支持。通过信号和良好定义的 API（中间件、扩展、管道）使你能够自由地配置自己编写的功能。
+- 大量的内置扩展和中间件：
+    - cookies and session 处理
+    - HTTP 特性，如压缩，认证，缓存
+    - user-agent欺骗
+    - robots.txt
+    - 限制抓取深度
+    - 更多
+
+
+
+
+
+
+
+
+
+
