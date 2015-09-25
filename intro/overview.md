@@ -70,8 +70,10 @@ scrapy runspider stackoverflow_spider.py -o top-stackoverflow-questions.json
 
 在给你快速抓取能力（以fault-tolerant方式可以并发发送多个请求）的同时，你可以通过一些设置控制它。你可以设置每个请求之间的下载延时，限制每个域或者 IP 的并发数，甚至通过auto-throttling扩展尝试自动限制并发数。
 
-While this enables you to do very fast crawls (sending multiple concurrent requests at the same time, in a fault-tolerant way) Scrapy also gives you control over the politeness of the crawl through a few settings. You can do things like setting a download delay between each request, limiting amount of concurrent requests per domain or per IP, and even using an auto-throttling extension that tries to figure out these automatically.
+最后，`parse_question`抓取问题数据从每一个页面，返回一个 dict，然后收集起来，写入命令行指定的文件中。
 
-Finally, the parse_question callback scrapes the question data for each page yielding a dict, which Scrapy then collects and writes to a JSON file as requested in the command line.
-
+    注意
+    
+    This is using feed exports to generate the JSON file, you can easily change the export format (XML or CSV, for example) or the storage backend (FTP or Amazon S3, for example). You can also write an item pipeline to store the items in a database.
+    这里使用了 `feed exports`来生成 JSON 文件，你也可以轻易地改变导出格式(XML 或者 CSV)，改变存储后端(FTP 或者 Amazon S3).你也可以写一个 Item Pipeline来存储数据到数据库中。
 
