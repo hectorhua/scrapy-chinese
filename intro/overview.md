@@ -97,8 +97,9 @@ scrapy runspider stackoverflow_spider.py -o top-stackoverflow-questions.json
 - Plus other goodies like reusable spiders to crawl sites from Sitemaps and XML/CSV feeds, a media pipeline for automatically downloading images (or any other media) associated with the scraped items, a caching DNS resolver, and much more!
 
 ##接下来##
-The next steps for you are to install Scrapy, follow through the tutorial to learn how to organize your code in Scrapy projects and join the community. Thanks for your interest!
-下一步你可以[安装 Scrapy](intro/install.md), [学习 scrapy 入门](intro/)
+
+下一步你可以[安装 Scrapy](intro/install.md), [学习 scrapy 入门](intro/tutorial.md)学习在 scrpay 项目中组织代码，也你可以[加入社区](http://scrapy.org/community/)。感谢你的阅读！
+
 
 
 
