@@ -74,5 +74,5 @@ scrapy runspider stackoverflow_spider.py -o top-stackoverflow-questions.json
 
     注意
     
-这里使用了 `feed exports`来生成 JSON 文件，你也可以轻易地改变导出格式(XML 或者 CSV)，改变存储后端(FTP 或者 Amazon S3).你也可以写一个 `item pipeline`来存储数据到数据库中。
+    这里使用了 `feed exports`来生成 JSON 文件，你也可以轻易地改变导出格式(XML 或者 CSV)，改变存储后端(FTP 或者 Amazon S3).你也可以写一个 `item pipeline`来存储数据到数据库中。
 
