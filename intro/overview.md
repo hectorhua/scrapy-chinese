@@ -92,19 +92,9 @@ scrapy runspider stackoverflow_spider.py -o top-stackoverflow-questions.json
     - robots.txt
     - 限制抓取深度
     - 更多
-- A Telnet console for hooking into a Python console running inside your Scrapy process, to introspect and debug your crawler
-- Telnet 控制台
+- Telnet 控制台：可以在运行过程中进入 Python 控制台来内省、调试你的爬虫
 - 还有很多好东西，像通过Sitemap和XML/CSV feeds抓取的可重用蜘蛛(reusable spiders), 自动下载图片或其他多媒体的多媒体管道(media pipeline),可以缓存的 DNS 解析器等。
 
 ##接下来##
 
 下一步你可以通过[安装 Scrapy](intro/install.md), [Scrapy 入门](intro/tutorial.md)学习如何在 scrpay 项目中组织代码，你也可以[加入社区](http://scrapy.org/community/)。感谢你的阅读！
-
-
-
- 
-
-
-
-
-
