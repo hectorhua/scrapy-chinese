@@ -94,7 +94,7 @@ scrapy runspider stackoverflow_spider.py -o top-stackoverflow-questions.json
     - 更多
 - A Telnet console for hooking into a Python console running inside your Scrapy process, to introspect and debug your crawler
 - Telnet 控制台
-- Plus other goodies like reusable spiders to crawl sites from Sitemaps and XML/CSV feeds, a media pipeline for automatically downloading images (or any other media) associated with the scraped items, a caching DNS resolver, and much more!
+- 还有很多好东西，像通过Sitemap和XML/CSV feeds抓取的可重用蜘蛛(reusable spiders), 自动下载图片或其他多媒体的多媒体管道(media pipeline),可以缓存的 DNS 解析器等。
 
 ##接下来##
 
