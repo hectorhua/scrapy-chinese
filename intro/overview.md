@@ -98,7 +98,7 @@ scrapy runspider stackoverflow_spider.py -o top-stackoverflow-questions.json
 
 ##接下来##
 The next steps for you are to install Scrapy, follow through the tutorial to learn how to organize your code in Scrapy projects and join the community. Thanks for your interest!
-下一步你可以[安装 Scrapy](intro/install.md)
+下一步你可以[安装 Scrapy](intro/install.md), [学习 scrapy 入门](intro/)
 
 
 
